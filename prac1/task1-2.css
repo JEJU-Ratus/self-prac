@@ -61,30 +61,6 @@
     padding-top: 10px;
 
 }
-
-
-
-
-/*a 태그 링크옵션*/
-
-a:link{
-    text-decoration: none;
-}
-
-a:visited{
-    text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-a:active{
-    text-decoration: underline;
-}
-
-
 /* 구글 아이콘을 불러오기 위한 기본 코드?? - 가져다 쓰기는 쓰는데 무슨뜻이지*/
 
 @font-face {
