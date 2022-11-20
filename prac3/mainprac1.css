@@ -1,0 +1,71 @@
+@import "reset.css";
+
+
+.dp-line{display: inline;}
+.dp-lineBlock{display: inline-block;}
+.wrap{
+    min-width: 1200px;
+    min-height: 100%;
+}
+.struct-wrap{
+    width: 1280px;
+    margin: 30px auto;
+}
+.img_logo{
+    vertical-align: middle;
+    margin-left: 80px;
+}
+.dp-lineBlock.nav{
+    margin-left: 190px;
+}
+.dp-lineBlock.ul-op1{
+    font-weight: bolder;
+    list-style-type: none;
+}
+.dp-lineBlock.li-op1{
+    margin-right: 70px;
+}
+.hello{
+    background-color: #FFCF5C;
+    
+}
+.img_lycat{
+    vertical-align: bottom;
+}
+.dp-lineBlock.ul-op2{
+    list-style-type: none;
+}
+.bold-text{
+    font-weight: bold;
+}
+.bold-text.li-op2{
+    font-size: 20px;
+}
+.bold-text.li-op3{
+    font-size: 100px;
+    line-height: 100%;
+    margin-top: 20px;
+}
+.li-op4{
+    color: #614B2D;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.sign-block{
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 50px 0px 100px 0px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+}
+.dp-lineBlock.ul-op3{
+    list-style-type: disc;
+}
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
