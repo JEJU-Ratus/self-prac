@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="wrap">
-        <header class="struct-wrap" >
+    <div class="wrap"><!-- 전체 구조 -->
+        <header class="struct-wrap" ><!-- 내부 요소 구조 header -->
             <img class="img_logo" src="../images/title.png" alt="모두의htmlcss">
-        <nav class="dp-lineBlock nav">
-            <ul class="dp-lineBlock ul-op1">
+        <nav class="dp-lineBlock nav"><!-- 상단 메뉴 -->
+            <ul class="dp-lineBlock li-type">
                 <li class="dp-lineBlock li-op1"><h2>HOME<h2></li>
                 <li class="dp-lineBlock li-op1"><h2>HTML</h2></li>
                 <li class="dp-lineBlock li-op1"><h2>CSS</h2></li>
@@ -23,10 +23,10 @@
         </nav>
             </header>
         </header>
-        <div class="hello">
+        <div class="hello"><!-- 메인의 소개 화면 상단. 사자 이미지와 회원가입 버튼 등 -->
             <div class="struct-wrap" >
                 <img class="img_lycat" src="../images/lycat.png" alt="라이캣이미지">
-                <ul class="dp-lineBlock ul-op2">
+                <ul class="dp-lineBlock li-type">
                     <li class="bold-text li-op2">모두의HTML/CSS</li>
                     <li class="bold-text li-op3">HELLO<br>WORLD! :)</li>
                     <li class="li-op4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Ullam
@@ -35,12 +35,58 @@
                 </ul>
             </div>
         </div>
-        <div class="struct-wrap">
-            <h3>HTML</h3>
-            <ul>
-                <li>1</li>
-            </ul>
+        <div class="struct-wrap intro"><!-- 메인 소개 화면 두번째 단 HTML CSS JAVASCRIPT 설명 -->
+                <div class="dp-lineBlock intro-child">
+                    <h3>HTML</h3>
+                    <ul class="li-posit">
+                        <li class="li-op5">Hypertext Markup Language 하이퍼텍스트 마크업 언어</li>
+                        <li class="li-op5">웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용</li>
+                    </ul>
+                </div>
+                <div class="dp-lineBlock intro-child">
+                    <h3>CSS</h3>
+                    <ul class="li-posit">
+                        <li class="li-op5">Cascading Style Sheets</li>
+                        <li class="li-op5">HTML이나 XML(XML의 방언인 SVG, XHTML포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어</li>
+                    </ul>
+                </div>
+                <div class="dp-lineBlock intro-child">
+                    <h3>JavaScript</h3>
+                    <ul class="li-posit">
+                        <li class="li-op5">일급 함수를 사용하는 가벼운 객체 지향 인터프리터 언어</li>
+                        <li class="li-op5">웹페이지의 스크립트 언어로 잘 알려져 있지만, 브라우저가 아닌 환경에서도 많이 사용됨</li>
+                    </ul>
+                </div>
         </div>
+        <div class="struct-wrap"><!-- 메인 화면 세번째 단 이미지들 정렬 -->
+            <div class="dp-lineBlock">
+                <div class="box-character mura">
+                    <ul class="dp-lineBlock li-type mura-text">
+                        <li class="bold-text li-op6">오전 5:00</li>
+                        <li class="bold-text li-op7">헛둘셋넷<br>열심히 운동하기</li>
+                        <li>amet consectetur adipisicing elit.</li>
+                    </ul>
+                    <img class="im_character" src="../images/mura.png" alt="무라이미지">
+                </div>
+                <div class=" box-character soulgom">
+                    <ul class="dp-lineBlock li-type another-text">
+                        <li class="bold-text li-op6">오전 9:00</li>
+                        <li class="bold-text li-op7">지친몸 이끌고<br>출근하기</li>
+                        <li>amet consectetur adipisicing elit.</li>
+                    </ul>
+                    <img class="im_character" src="../images/soulgom.png" alt="소울곰">
+                </div>
+            </div>
+            <div class="dp-lineBlock box-gary">
+                <ul class="dp-lineBlock li-type another-text">
+                    <li class="bold-text li-op6">오후 6:00</li>
+                    <li class="bold-text li-op7">치킨과 함께하는<br>씐나는 퇴근</li>
+                    <li>amet consectetur adipisicing elit.</li>
+                </ul>
+                <img class="im_character gary" src="../images/gary.png" alt="가리">   
+            </div>
+        </div>
+        
     </div>
 </body>
 
