@@ -1,30 +1,36 @@
 @import "reset.css";
 
-li::marker {/* 이걸 사용하면 모든 li의 marker 사이즈가 변경 되는데, 따로따로 설정하는법은?*/
+li::marker {
+    /* 이걸 사용하면 모든 li의 marker 사이즈가 변경 되는데, 따로따로 설정하는법은?*/
 
     font-size: 10px;
 }
 
 
-.wrap {/* 모든 구성요소의 조건  */
+.wrap {
+    /* 모든 구성요소의 조건  */
     min-width: 1200px;
     min-height: 100%;
 }
 
-.str_wrap { /* box의 width값 지정 */
+.str_wrap {
+    /* box의 width값 지정 */
     width: 1540px;
     margin: 30px auto;
     /*왜 맨위에서만 작동하고 그 다음부터는 겹치는가? */
 }
 
-.clearfix{/* float 해제 */
+.clearfix {
+    /* float 해제 */
     overflow: hidden;
 }
+
 .tit_logo {
     float: left;
     margin-left: 80px;
 
 }
+
 .scr_out {
     /* 화면에 안나오게 함. */
     display: none;
@@ -41,42 +47,53 @@ li::marker {/* 이걸 사용하면 모든 li의 marker 사이즈가 변경 되�
 }
 
 /* 이들은 합쳐서 계속 써주는게 좋은지? 아니면 따로따로 놔둔상태로 두개의 클래스를 가져다 쓰는게 나은지? */
-.bd_fon {/* 폰트사이즈 굵게 */
+.bd_fon {
+    /* 폰트사이즈 굵게 */
     font-weight: bold;
 }
 
-.lst{/* li의 bullet의 스타일을 없음 처리 */
+.lst {
+    /* li의 bullet의 스타일을 없음 처리 */
     list-style-type: none;
 }
 
-.mar_menu{ /* 상단 menu간의 간격 조절 */
+.mar_menu {
+    /* 상단 menu간의 간격 조절 */
     margin-right: 70px;
 }
-.hello { /* 상단 페이지 소개 단락의 배경색 */
+
+.hello {
+    /* 상단 페이지 소개 단락의 배경색 */
     background-color: #FFCF5C;
 }
-.pic_lycat { /* 호랑이같이 생긴 캐릭터 이미지 옆 글 씨 중앙 */
+
+.pic_lycat {
+    /* 호랑이같이 생긴 캐릭터 이미지 옆 글 씨 중앙 */
     vertical-align: bottom;
 }
 
-.hello_op1{ /* 상단 소개 단락의 첫 번째줄 옵션  */
+.hello_op1 {
+    /* 상단 소개 단락의 첫 번째줄 옵션  */
     font-size: 20px;
 }
 
-.hello_op2{/* 상단 소개 단락의 두 번째줄 옵션 */
+.hello_op2 {
+    /* 상단 소개 단락의 두 번째줄 옵션 */
     font-size: 100px;
     line-height: 100%;
     margin-top: 20px;
 }
 
-.hello_op3 {/* 상단 소개 단락의 세 번째줄 옵션 */
+.hello_op3 {
+    /* 상단 소개 단락의 세 번째줄 옵션 */
     color: #614B2D;
     font-size: 21px;
     margin-top: 20px;
     /* margin-top 을 이용해 간격을 많이 벌리는데 이것도 계속 값을 주는거 vs class를 만들어 붙이는거 중 뭐가 나은지? */
 }
 
-.btn_sign { /* 상단 소개 단락의 회원가입 버튼 모양 */
+.btn_sign {
+    /* 상단 소개 단락의 회원가입 버튼 모양 */
     width: 200px;
     height: 70px;
     background-color: black;
@@ -86,81 +103,105 @@ li::marker {/* 이걸 사용하면 모든 li의 marker 사이즈가 변경 되�
     text-align: center;
     line-height: 70px;
 }
-.intro {/* 두 번째 소개 단락.( html css javaScript 소개.) 옵션 */
+
+.intro {
+    /* 두 번째 소개 단락.( html css javaScript 소개.) 옵션 */
     display: table;
     table-layout: fixed;
     margin: 100px auto;
 }
 
-.intro_child {/* intro에 table 옵션을 주고, 자식 요소들에 table-cell옵션 밑 서로간의 간격 조절  */
+.intro_child {
+    /* intro에 table 옵션을 주고, 자식 요소들에 table-cell옵션 밑 서로간의 간격 조절  */
     display: table-cell;
     padding-left: 80px;
 
 }
-.tit_intro{/* 두 번째 소개 단락의 소제목( html css javaScript ) 글자크기 키우기 */
+
+.tit_intro {
+    /* 두 번째 소개 단락의 소제목( html css javaScript ) 글자크기 키우기 */
     font-size: 20px;
 }
-.lsp{ /* li의 포지션을 안쪽으로 밀기. */
+
+.lsp {
+    /* li의 포지션을 안쪽으로 밀기. */
     list-style-position: inside;
 }
-.fon_intro { /* 두 번째 소개 단락의 내용의 옵션 */
+
+.fon_intro {
+    /* 두 번째 소개 단락의 내용의 옵션 */
     margin-left: 10px;
     color: #767676;
 }
 
-.str_chabox { /* 세 번째 캐릭터 이미지가 들어간 단락의 margin 옵션 */
+.str_chabox {
+    /* 세 번째 캐릭터 이미지가 들어간 단락의 margin 옵션 */
     margin-bottom: 200px;
 }
-.box_cha { /* 후술할 mura,soulgom 박스의 크기 설정 */
+
+.box_cha {
+    /* 후술할 mura,soulgom 박스의 크기 설정 */
     width: 710px;
     margin: 30px 0px 0px 80px;
     padding-top: 30px;
     border-radius: 10px;
 }
 
-.box_cha.mura {/* mura 박스의 배경색 및 마진 설정 */
+.box_cha.mura {
+    /* mura 박스의 배경색 및 마진 설정 */
     background-color: #E37066;
     margin-top: 0px;
 }
-.fon_mura {/* mura 박스 내부의 폰트 및 외부 margin 설정 */
+
+.fon_mura {
+    /* mura 박스 내부의 폰트 및 외부 margin 설정 */
     color: white;
     margin-left: 30px;
 }
 
-.fon1_chabox {/* 캐릭터 박스 내부의 시간 부분 글자 크기 및 밑줄 */
+.fon1_chabox {
+    /* 캐릭터 박스 내부의 시간 부분 글자 크기 및 밑줄 */
     text-decoration: underline;
     font-size: 20px;
 }
 
-.fon2_chabox {/* 캐릭터 박스 내부의 중간 글귀 부분 글자 크기 및 상단 시간 부분과 거리 조절  */
+.fon2_chabox {
+    /* 캐릭터 박스 내부의 중간 글귀 부분 글자 크기 및 상단 시간 부분과 거리 조절  */
     font-size: 30px;
     margin-top: 25px;
 }
 
 
-.pic_cha {/* 캐릭터 상자 내부의 글자 정렬 밑 모서리 둥굴게 */
+.pic_cha {
+    /* 캐릭터 상자 내부의 글자 정렬 밑 모서리 둥굴게 */
     vertical-align: top;
     border-radius: 10px;
 }
-.pic_cha.mura {/* mura이미지 위치 조절 */
+
+.pic_cha.mura {
+    /* mura이미지 위치 조절 */
     padding-left: 40px;
 }
 
 
-.box_cha.soulgom {/* soulgom 박스의 배경색 조절 */
+.box_cha.soulgom {
+    /* soulgom 박스의 배경색 조절 */
     background-color: #CBDFF7;
 }
 
-.pic_cha.soulgom {/* soulgom 이미지 위치 조절 */
+.pic_cha.soulgom {
+    /* soulgom 이미지 위치 조절 */
     padding-left: 100px;
-} 
+}
 
-.fon_soga {/* soulgom, gary 박스의 폰트 및 외부 마진 설정 */
+.fon_soga {
+    /* soulgom, gary 박스의 폰트 및 외부 마진 설정 */
     color: black;
     margin-left: 30px;
 }
 
-.box-gary {/* gary박스의 배경색, 사이즈, margin, 모서리등 설정 */
+.box-gary {
+    /* gary박스의 배경색, 사이즈, margin, 모서리등 설정 */
     background-color: #D2E579;
     width: 710px;
     margin-left: 30px;
@@ -169,31 +210,71 @@ li::marker {/* 이걸 사용하면 모든 li의 marker 사이즈가 변경 되�
     border-radius: 10px;
 }
 
-.pic_cha.gary {/* gary 이미지의 위치 조절 */
+.pic_cha.gary {
+    /* gary 이미지의 위치 조절 */
     padding-top: 100px;
 }
 
-.tit_tab {/* 마지막 탭 단락 탭 대제목. */
+.tit_tab {
+    /* 마지막 탭 단락 탭 대제목. */
     text-align: center;
     margin: 0px 0px 50px 80px;
     font-size: 30px;
 }
 
-.wrap_tab{ /* 탭의 구조 */
+/* 탭 전체 스타일 */
+.tabs {
     margin-left: 80px;
+    overflow: hidden;
 }
-input[name="pick_tab"]{/* input의 radio 버튼 없애기 */
+
+
+/* 탭 스타일 */
+.tab_item {
+    margin-right:10px;
+    width: 231px;
+    height: 50px;
+    background-color: #f5f5f5;
+    line-height: 50px;
+    font-size: 16px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+/* 라디오 버튼 UI삭제*/
+input[name="tab_item"] {
     display: none;
 }
-.str_tab{
-    display: block;
-    background-color: #f5f5f5;
-    width: 210px;
-    height: 30px;
 
+/* 탭 컨텐츠 스타일 */
+.tab_content {
+    display: none;
+    clear: both;
+}
+.mgn{
+    margin: 30px 0px 30px;
 }
 
 
+/* 선택 된 탭 콘텐츠를 표시 */
+#all:checked~#all_content,
+#programming:checked~#programming_content,
+#design:checked~#design_content {
+    display: block;
+}
+
+/* 선택된 탭 스타일 */
+.tabs input:checked+.tab_item {
+    background-color: #FFCF5C;
+}
+
+.tab_content li{
+    white-space : nowrap; 
+    overflow: hidden;
+    text-overflow : ellipsis;
+    font-size: 20px;
+}
 
 /* btn_sign 부분은 진짜 buttn 옵션이 사용되지 않았는데 btn으로 써도 되는지 */
 /* 태그안에 글로 적는 / 부분은 애초에 글자로 인식 되는거 아닌가?? 다들 밖에서 사용하는 거 이야기만 함.
