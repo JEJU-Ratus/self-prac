@@ -21,10 +21,18 @@
             <!-- 상단 메뉴 -->
             <nav class="lb nav">
                 <ul class="lb lst">
-                    <a href="#"><li class="lb bd_fon mar_menu">HOME</li></a>
-                    <a href="#"><li class="lb bd_fon mar_menu">HTML</li></a>
-                    <a href="#"><li class="lb bd_fon mar_menu">CSS</li></a>
-                    <a href="#"><li class="lb bd_fon mar_menu">JavaScript</li></a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">HOME</li>
+                    </a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">HTML</li>
+                    </a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">CSS</li>
+                    </a>
+                    <a href="#">
+                        <li class="lb bd_fon mar_menu">JavaScript </li>
+                    </a>
                 </ul>
             </nav>
         </header>
@@ -38,7 +46,9 @@
                     <li class="hello_op3">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Ullam
                         aliquam ratione, a eos perspicaiatis temporibus</li>
                     <li>
-                        <a href="#"><div class="btn_sign">회원가입</div></a>
+                        <a href="#">
+                            <div class="btn_sign">회원가입</div>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -107,29 +117,39 @@
             </div>
 
             <!-- 마지막 단락 탭 부분 -->
-            <div class="tabs">
-                <input id="all" type="radio" name="tab_item" checked>
-                <label class="tab_item" for="all">Tab 1</label>
-                <input id="programming" type="radio" name="tab_item">
-                <label class="tab_item" for="programming">Tab 2</label>
-                <input id="design" type="radio" name="tab_item">
-                <label class="tab_item" for="design">Tab 3</label>
-
-                <div class="tab_content" id="all_content">
-                    
-                    <ol class="mgn" start="10" reversed>
-                        <hr>
-                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sit error blanditiis aut
-                            mollitia quidem cumque neque, optio vitae quibusdam laudantium aspernatur expedita eius.
-                            Repellendus explicabo aut iste quo minus.</li>
-                        <li>Ullem</li>
+            <div class="str_wrap box_tab">
+                <input type="radio" id="tabfirst" name="mytabs" checked="checked">
+                <label for="tabfirst">Tab1</label>
+                <div class="space_tab">
+                    <ol start="10" reversed>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, vel autem corrupti blanditiis
+                            accusantium itaque maxime quaerat, facilis commodi at nam sunt vitae eum. Cupiditate ex in
+                            quisquam possimus obcaecati!</li>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus recusandae nulla
+                            facere! Cum nisi inventore, harum, magni recusandae pariatur eligendi necessitatibus
+                            suscipit quas laboriosam impedit qui. Nostrum iusto accusamus voluptatibus.</li>
+                        <li>test</li>
                     </ol>
                 </div>
-                <div class="tab_content" id="programming_content">
-                    https://velog.io/@henotony
+
+                <input type="radio" id="tabsecond" name="mytabs">
+                <label for="tabscond">Tab2</label>
+                <div class="space_tab">
+                    <ol start="10" reversed>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ol>
                 </div>
-                <div class="tab_content" id="design_content">
-                    Thanks a lot
+
+                <input type="radio" id="tabthird" name="mytabs">
+                <label for="tabthird">Tab3</label>
+                <div class="space_tab">
+                    <ol start="10" reversed>
+                        <li>test</li>
+                        <li>test</li>
+                        <li>test</li>
+                    </ol>
                 </div>
             </div>
         </div>
