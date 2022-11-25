@@ -1,0 +1,9 @@
+@import "reset.css";
+/* BEM 규칙을 이용해보았음. */
+
+
+/* 웹 페이지 구성요소 박스의 가장 큰 틀 */
+.main-box{
+    width: 1440px;
+    margin: 0 auto;
+}
