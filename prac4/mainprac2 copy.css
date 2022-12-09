@@ -36,21 +36,25 @@
 /* -----------------여기까지------------------- */
 
 /* main의 윗 부분 */
-.container__top--back-color{
+
+.container__top{
+    background-image: url(../images/lycat.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+.container__top.back-color ::before{
     background-color: #FFCF5C;
 }
-.container__top{
-    overflow: hidden;
-}
 
-/* 사자탈쓴 고양이 이미지 */
-.container__top--lycat{
-    float: left;
-}
+
+
 /* 고양이 이미지 오른쪽 소개글 */
 .container__top--intro{
     line-height: 70px;
     padding: 113.475px 0px;
+    float: right;
+    margin-right: 260px;
 }
 .container__top--intro-first{
     font-weight: bold;
