@@ -1,8 +1,6 @@
 .wrapper-account {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
 .container-account {
@@ -15,7 +13,7 @@
     position: relative;
     text-align: center;
     border-bottom: 1px solid #d5d5d5;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .title-account p {
@@ -38,7 +36,7 @@
 
 .main-account input {
     display: block;
-    width: 350px;
+    width: 92%;
     height: 40px;
     font-size: 11px;
     border: 1px solid #d5d5d5;
@@ -83,7 +81,8 @@
     border-radius: 5px;
     background-color: #2f80ed;
     margin: 15px;
-    padding: 10px 153px;
+    width: 92%;
+    padding: 10px;
     color: white;
     font-weight: bold;
 }
@@ -117,7 +116,9 @@
 .info-user ul>li:last-child::after {
     content: "";
 }
-
+.other-account ul{
+    margin: 0 15px 25px;
+}
 .other-account hr {
     border: none;
     border-top: 1px solid #d5d5d5;
@@ -127,7 +128,7 @@
     overflow: visible;
 }
 
-.other-account hr:after {
+.other-account hr::after {
     content: "또는";
     font-size: 11px;
     color: #7f7f7f;
@@ -141,8 +142,9 @@
     list-style-type: none;
     display: flex; 
     justify-content: center;
-    margin: 0px 15px 10px;
+    margin-bottom: 10px;
 }
+
 .other-account a{
     position: relative;
     border: 1px solid;
@@ -150,23 +152,26 @@
     font-size: 12px;
     color: #7f7f7f;
     font-weight: bold;
+    width: 100%;
+    text-align: center;
 }
 a.google{
-    padding: 10px 106px;
+    padding: 10px;
     border-color: #9f9f9f;
 }
 a.facebook{
-    padding: 10px 92px;
+    padding: 10px;
     border-color: #67b7e5;
 }
 a.naver{
-    padding: 10px 99px;
+    padding: 10px;
     border-color: #67d875;
 }
 a.kakaotalk{
-    padding: 10px 92px;
+    padding: 10px;
     border-color: #f5d982;
 }
+
 .other-account img{
     position: absolute;
     left: 10px;

@@ -4,8 +4,6 @@ body{
 .wrapper-login{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 .container-login{
     border: 2px solid #e5e5e5;
